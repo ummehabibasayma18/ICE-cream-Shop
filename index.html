@@ -1,0 +1,794 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICEcream</title>
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- font awesome link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+
+   <!-- aos css link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!-- main stylesheet -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body >
+  <!-- <div id="goTop">
+    <i class="fa-solid fa-angle-up bg-primary text-white fs-2 p-3 rounded-4"></i>
+  </div> -->
+   <!-- header section start -->
+    <header class="" id="home " >
+     <!-- navigationBar start -->
+    <nav  class="navbar navbar-expand-lg  bg-secondary  navbar-expand-md align-items-center bg-white mt-5 fixed-top rounded-bottom-5 rounded-top-5"  id="full-navbar"  >
+        <div class="container">
+          <a class="navbar-brand text-black px-5 fs-3" href="#">
+           <span class="text-primary">ICE<i class="fa-solid fa-ice-cream text-primary display-4"></i>Cream</span>
+          </a>
+  
+          <div>
+            <i class="fa-regular fa-moon fs-3 ms-4 mt-2 text-white d-md-none"></i>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mynav" aria-controls="#mynav" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars text-white bg-primary p-2"></i>
+            </button>
+          </div> 
+       
+          <div class="collapse navbar-collapse px-5  " id="mynav">
+            <ul class="navbar-nav mx-auto align-items-center  mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Gallary</a></li>
+                  <li><a class="dropdown-item" href="#">Author</a></li>
+                  <li><a class="dropdown-item">search</a></li>
+                  <li><a class="dropdown-item" href="#">Something </a></li>
+                </ul>
+              </li>
+                 <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Gallary</a></li>
+                  <li><a class="dropdown-item" href="#">Author</a></li>
+                  <li><a class="dropdown-item">search</a></li>
+                  <li><a class="dropdown-item" href="#">Something </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+
+            <div class="menu-icon">
+              <i class="bx bx-menu" id="show-icon" onclick="showMenu()"></i>
+              <i class="bx bx-x d-none" id="hide-icon" onclick="hideMenu()"></i>
+            </div>
+
+           <div class="    navbar-nav search-right nav-item " >
+              <a class="nav-link " href="#Pages" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="true">
+                  <span class="fa fa-search d-none d-md-block " aria-hidden="true"></span>
+              </a>
+            </div> 
+            <i class="fa-regular fa-moon fs-3 ms-4 mt-2 text-black-50 d-none d-md-block"></i>
+          </div>
+        </div>  
+    </nav>
+               <!-- navigationBar end -->
+    
+      <!-- header content start   -->
+    <section class="py-5 ">
+        <div class="container my-5  py-md-3 py-lg-3" >
+        <div class="row pt-5 px-5">
+    
+        <div class=" col-lg-8 ">
+        <div class="heroImg">
+        <figure class="">
+             <img class="img-fluid img position-relative  heroImg " src="./assets/images/summer-gourmet-dessert-fresh-strawberry-ice-cream-sundae-generative-ai.jpg" alt="">
+
+            <div class="position-absolute top-50 ps-5 hero-content" > 
+                    <a href="#reciepe" class="reciepe">Reciepe</a> 
+                    <h4 class="text-white fw-bold fs-1">Amazing Milk Chocolate Cupcakes </br> with Buttercream</h4>
+                    <p class="mt-2 d-sm-block text-white fs-5 d-none">Lorem ipsum dolor sit amet elit. 
+                        Vitae nostrum ipsum verotempore </br>esse, eaque  omnis culpa quo placeat?</p>
+    
+                <div class="p-footer text-white" >
+                         <aside class="">
+                            <a href="#img" class="post-img-anchor">
+                            <img src="./assets/images/a1.jpg" alt="" class="post-img"></a>
+                            <a href="#url" class="fw-bold fs-5 text-white text-decoration-none px-3">Elizabeth</a>
+                            <span class=""> <span class="fa-regular fa-clock" aria-hidden="true"></span> Oct 3, 2020 </span>
+                         </aside>
+                </div> 
+            </div> 
+        </figure>
+        </div> 
+        </div>
+    
+        <div class="col-lg-4 mt-lg-0 mt-4 ">
+                       
+                            <div class="py-3" >
+                                <figure class="position-relative">
+                                    <img class="img-fluid img rounded-3 " src="./assets/images/front-view-girl-holding-delicious-ice-cream.jpg" alt="">
+                                    
+                                        <div class="position-absolute top-50 px-4 text-white translate-right">
+                                            <h4 class="fw-bold">Amazing Milk Chocolate Cupcake with cream</h4>
+                                            <aside class="">
+                                              <span class="">
+                                                <span class="fa-regular fa-clock" aria-hidden="true"></span>  10 Min Cook
+                                              </span>
+                                            </aside>
+                                        </div>
+                                </figure>
+                            </div>
+                    
+                        
+                            <div class="" >
+                                <figure class="position-relative">
+                                    <img class="img-fluid img rounded-3 " src="./assets/images/front-view-little-boy-eating-ice-cream.jpg" alt="">
+                                    <figcaption>
+                                        <div class="position-absolute top-50 px-4 text-white translate-right" >
+                                            <h4 class="fw-bold">The Best Chewy Chocolate Chip Cookies Recipe</h4>
+                                            <aside class="">
+                                                <span class="">
+                                                    <span class="fa-regular fa-bell" aria-hidden="true"></span> Sponsered by
+                                                    <strong>Johnson</strong>
+                                                </span>
+                                            </aside>
+                                        </div>
+        
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        
+        </div>
+    </div>
+    </div>
+</section>  
+</header> 
+<!-- adv sec start -->
+ <section class=" text-center pb-lg-5 " >
+  <div class="container " >
+      <div class="px-5">
+        <h6 class="fs-3 pb-4">- Advertisement -</h6>
+      <a class="" target="_blank" href="#url"><img src="./assets/images/5718307.jpg" alt="- Advertisement -" class="img-fluid rounded-3 shadow-lg"></a>
+      </div>
+  </div>
+</section> 
+<!-- adv sec end -->
+<!-- latest sec start -->
+<section class=" py-5 bg-light" >
+    <div class="container py-lg-4 py-md-3" >
+        <!-- block -->
+    <div class="row px-5">
+      <div class="col-lg-8 " >
+        <div class="most-recent pe-lg-4">
+           
+            <h3 class="title-left fw-bold mb-3">Latest Recipes</h3>
+                <div class="row" >
+
+                    <div class="col-lg-6 col-md-6 " >
+                        <div class="item mt-md-0 mt-5">
+                            <div class=" p-0 position-relative" >
+                                <a href="index.html">
+                                    <img class="card-img-bottom d-block radius-image " src="assets/images/4.jpg" alt="Card image cap">
+                                </a>
+                                <div class="post-pos" >
+                                    <a href="#reciepe" class="reciepe">Reciepe</a>
+                                    <span class="meta-info meta-info-custom">
+                                        <span class="fa fa-clock-o mr-2" aria-hidden="true"></span>10 Min Cook
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card-body p-0 blog-details" >
+                                <a href="index.html" class="blog-desc">The Best Cookie Recipes To Bake This Weekend
+                                </a>
+                                <p>Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                                    vitae sit.</p>
+                                <div class="p-footer mt-3" >
+                                    <div class="p-meta-info" >
+                                        <a href="#img">
+                                            <img src="assets/images/a1.jpg" alt="" class="post-img radius-img img-fluid">
+                                        </a>
+                                        <a href="#url" class="fw-bold">Elizabeth</a>
+                                    </div>
+                                    <a href="#read" class="viewMore">Read more <span class="fas fa-arrow-right" aria-hidden="true"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 " >
+                        <div class="item mt-md-0 mt-5" >
+                            <div class="card-header p-0 position-relative" >
+                                <a href="index.html">
+                                    <img class="card-img-bottom d-block  radius-image" src="assets/images/5.jpg" alt="Card image cap">
+                                </a>
+                                <div class="post-pos">
+                                    <a href="#reciepe" class="howTo">How to</a>
+                                    <span class="meta-info meta-info-custom">
+                                        <span class="fa fa-clock-o mr-2" aria-hidden="true"></span>10 Min Cook
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card-body p-0 blog-details" >
+                                <a href="index.html" class="blog-desc">Mixed Greens with strawberry Juice Vinaigrette Recipe
+                                </a>
+                                <p>Lorem ipsum dolor sit amet ipsum adipisicing elit. Qui eligendi
+                                    vitae sit.</p>
+                                <div class="p-footer mt-3" >
+                                    <div class="p-meta-info" >
+                                        <a href="#img" >
+                                            <img src="assets/images/a2.jpg" alt="" class="post-img radius-img img-fluid">
+                                        </a>
+                                        <a href="#url" class="fw-bold" >William </a>
+                                    </div>
+                                    <a href="#read" class="viewMore">Read more <span class="fas fa-arrow-right" aria-hidden="true"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 ">
+                        <div class="item mt-5 pt-lg-3">
+                            <div class="card-header p-0 position-relative">
+                                <a href="index.html">
+                                    <img class="card-img-bottom d-block radius-image" src="assets/images/6.jpg" alt="Card image cap">
+                                </a>
+                                <div class="post-pos" >
+                                    <a href="#reciepe" class="howTo">How to</a>
+                                    <span class="meta-info meta-info-custom">
+                                        <span class="fa fa-clock-o mr-2" aria-hidden="true"></span>10 Min Cook
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card-body p-0 blog-details" >
+                                <a href="blog-single.html" class="blog-desc">Fruit Salad with Honey and Orange, strawberry, blackberry
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi
+                                    vitae sit.</p>
+                                <div class="p-footer mt-3" >
+                                    <div class="p-meta-info" >
+                                        <a href="#img" >
+                                            <img src="assets/images/a3.jpg" alt="" class="post-img radius-img img-fluid">
+                                        </a>
+                                        <a href="#url" class="fw-bold">Alexander</a>
+                                    </div>
+                                    <a href="#read" class="viewMore">Read more <span class="fas fa-arrow-right" aria-hidden="true"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 col-md-6 " >
+                        <div class="item mt-5 pt-lg-3" >
+                            <div class="card-header p-0 position-relative" >
+                                <a href="index.html">
+                                    <img class="card-img-bottom d-block radius-image" src="assets/images/7.jpg" alt="Card image cap">
+                                </a>
+                                <div class="post-pos" >
+                                    <a href="#reciepe" class="Drinks">Drinks</a>
+                                    <span class="meta-info meta-info-custom">
+                                        <span class="fa fa-clock-o mr-2" aria-hidden="true"></span>10 Min Cook
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card-body p-0 blog-details" bis_skin_checked="1">
+                                <a href="index.html" class="blog-desc">Starbucks Blonde Caffè: A Good Espresso With Milk 
+                                </a>
+                                <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi
+                                    vitae sit.</p>
+                                <div class="p-footer mt-3" >
+                                    <div class="p-meta-info" >
+                                        <a href="#img" class="post-img-anchor">
+                                            <img src="assets/images/a4.jpg" alt="" class="post-img radius-img img-fluid">
+                                        </a>
+                                        <a href="#url" class="fw-bold" >Johnson</a>
+                                    </div>
+                                    <a href="#read" class="viewMore">Read more <span class="fas fa-arrow-right" aria-hidden="true"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+      </div>
+
+      <div class="col-lg-4 " >
+                <div class=" mt-lg-0 mt-5 mb-lg-5 " >
+                    <div class="side-post-banner py-5 rounded-3 text-center">
+                        <h3 class="title-left fs-1 text-white">Create a Stunning Website!</h3>
+                        <p class="mt-3 text-white fs-5">Lorem, ipsum dolor sit amet elit.</br> Libero, facere dolor sit, amet elit. </br> ipsam
+                            beatae eius.</p>
+                        <a href="#read" class="btn-style btn  btn-danger mt-5"> Get started </a>
+                    </div>
+                    <div class="mt-5" >
+                        <h3 class="title-left fw-bold mb-sm-3">Latest Tweets</h3>
+                        <ul class="blog-cat ">
+
+                           <div class="d-flex py-3">
+                            <i class="fa-brands fa-twitter fs-5 me-3 pt-2"></i>
+                            <li >
+                                
+                                <a href="#url">layouts help Developers, Designers, Website owners create
+                                    Stunning Websites #design…
+                                    <br>
+                                    <em class="twitter-date">Oct 4, 2020</em></a><hr>
+                            </li>
+                            </div>
+
+                           <div class='d-flex'>
+                           <i class="fa-brands fa-twitter fs-5 me-3 pt-2"></i>
+                            <li>
+                                <a href="#url">layouts Delog starter just evolved. has acquired the
+                                    ability to generate sitemaps in production… @gatsbyjs @NetlifyCMS
+                                    <br><em class="twitter-date">Oct 4, 2020</em></a><hr>
+                            </li>
+                            </div>
+                            <div class="d-flex py-3">
+                                <i class="fa-brands fa-twitter fs-5 me-3 pt-2"></i>
+                            <li>
+                                <a href="#url">layouts help Developers, Designers, Website owners create
+                                    Stunning Websites #design…
+                                    <br><em class="twitter-date">Oct 4, 2020</em></a><hr>
+                            </li>
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+      </div>
+    </div>
+        <!-- //block-->
+    </div>
+</section>
+<!-- latest sec end -->
+<!-- Categories section start -->
+<section class="bg-light  py-5" id="about">
+    <div class="container" >
+        <div class="grids py-lg-5 py-md-4 px-5" >
+            <div class="row grids-gap g-5">
+                <div class="col-lg-4 align-self">
+                    <div class="text-left">
+                        <h3 class="title-left fw-bold mb-3">Categories</h3>
+                        <p class="text-para text-black-50 fs-5 ">Curabitur id gravida risus. Fusce eget ex, nisi ac sed,
+                            lacinia est. Quisque ut lectus, eros et, commodo risus. 
+                            Nullam sit amet laoreet elit. non magna a velit. </p>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="mt-lg-0 mt-md-5 mt-sm-4 mt-2">
+                        <div class="row" >
+                            <div class="col-lg-4 col-md-4 col-sm-6 ">
+                                <div class="column mt-sm-0 mt-4">
+                                    <a href="#single"><img src="assets/images/recipe.jpg" alt="" class="img-fluid"></a>
+                                    <div class="info" >
+                                        <h4><a href="#single">Recipes</a></h4>
+                                    </div>
+                                </div>
+                             </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 " >
+                                <div class="column mt-sm-0 mt-4" >
+                                    <a href="#single"><img src="assets/images/drinks.jpg" alt="" class="img-fluid"></a>
+                                    <div class="info" >
+                                        <h4><a href="#single">Cooldrinks</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 " >
+                                <div class="column mt-md-0 mt-4" >
+                                    <a href="#single"><img src="assets/images/video.jpg" alt="" class="img-fluid"></a>
+                                    <div class="info" bis_skin_checked="1">
+                                        <h4><a href="#single">How to make</a></h4>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Categories section end -->
+<!-- 20-Minutes Meals section start  -->
+<div class=" py-5" >
+    <div class="container py-lg-4 py-md-3 ">
+        <!-- block -->
+        <div class="most-recent px-5" >
+            <div class="title-align mb-4 d-flex" >
+                <h3 class="title-left fw-bold">20-Minutes Meals</h3>
+                <a href="index.html" class="viewMore" > View more posts <span class="fas fa-arrow-right view-icon" aria-hidden="true"></span></a>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6  " >
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/meal1.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="howTo">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 item mt-md-0 mt-5">
+                    <div class="card" >
+                        <div class="card-header p-0 position-relative" >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/meal2.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos" >
+                                <a href="#reciepe" class="Drinks">Reciepe</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">How to cook French Fries like in a Restaurant
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 3, 2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 item mt-lg-0 mt-5" >
+                    <div class="card" >
+                        <div class="card-header p-0 position-relative" >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/meal3.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos" >
+                                <a href="#reciepe" class="reciepe">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">Spicy noodles with north indian style
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 3, 2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 item mt-lg-0 mt-5">
+                    <div class="card" bis_skin_checked="1">
+                        <div class="card-header p-0 position-relative" >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/meal4.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos" bis_skin_checked="1">
+                                <a href="#reciepe" class="howTo">Reciepe</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">Eat Healthy, Delicious and Perfect Burgers
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 7, 2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //block-->
+    </div>
+</div>
+<!-- 20-Minutes Meals section end  -->
+<!-- Newsletter section start -->
+<section class="" id="newsletter">
+    <div class="container ">
+        <div class=" px-5 mx-2">
+            <div class="row py-5  bg-secondary rounded-3">
+                <div class="col-lg-5 ">
+                    <div class=" header-section  px-5">
+                    <h3 class="fw-bold text-primary">Subscribe Newsletter </h3>
+                    <p class=""> Get our latest news straight into your inbox</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 mt-lg-0 mt-4">
+                    <form action="#" method="post" class="subscribe-wthree">
+                        <div class="d-flex px-5">
+                            <input class="form-control" type="email" placeholder="Enter your email..." name="email" required="">
+                            <button class="btn btn-style btn-primary" type="submit">
+                                <span class="fa fa-paper-plane" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Newsletter section end -->
+<!-- dessert section start -->
+ <section class="py-5">
+    <div class="container py-lg-4 py-md-3 ">
+        <div class="most-recent px-5">
+            <div class="title-align mb-4 d-flex" >
+                <h3 class="title-left fw-bold">How to make dessert</h3>
+                <a href="index.html" class="viewMore" > View more posts <span class="fas fa-arrow-right view-icon" aria-hidden="true"></span></a>
+            </div>
+        </div>
+    </div>
+        <div id="carouselExampleIndicators" class="carousel slide container px-5">
+            <div class="carousel-indicators bg-success ">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"  aria-current="true" aria-label="Slide 1" class="active"></button>
+              <button  type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" ></button>
+              <button class="" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" ></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <!-- slide 1 -->
+              <div class="carousel-item active">
+                <div class="card-wrapper  d-flex pb-5 justify-content-around">
+                   
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake4.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="howTo">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake2.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="Drinks">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake3.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="reciepe">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake1.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="Drinks">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                                
+                 </div>
+              </div>
+
+              <!-- slide 2 -->
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex pb-5 justify-content-around">
+                      
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake5.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="howTo ">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake6.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="Drinks">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="index.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake1.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="howTo">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake8.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="reciepe">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="index.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                                
+                 </div>
+              </div>
+
+              <!-- slide 3 -->
+              <div class="carousel-item">
+                <div class="card-wrapper container-sm d-flex pb-5 justify-content-around">
+                      
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake2.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="howTo">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake8.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="reciepe">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="index.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="blog-single.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake4.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="Drinks">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                    <div class="card " >
+                        <div class="card-header p-0 position-relative " >
+                            <a href="index.html">
+                                <img class="card-img-bottom d-block radius-image" src="assets/images/cake6.jpg" alt="Card image cap">
+                            </a>
+                            <div class="post-pos">
+                                <a href="#reciepe" class="howTo">How to</a>
+                            </div>
+                        </div>
+                        <div class="card-body p-0 blog-details" >
+                            <a href="blog-single.html" class="blog-desc">The only 12 curry recipes you’ll Ever Need
+                            </a>
+                            <span class="post-date"><span class="fa fa-clock-o" aria-hidden="true"></span> Oct 4, 2020</span>
+                        </div>
+                    </div>
+                                
+                 </div>
+              </div>
+            </div>
+           
+          </div>
+    
+ </section>                        
+<!-- dessert section end -->
+<!-- footer stART -->
+<footer class="py-5 bg-black" id="contact">
+    <div class="container pt-md-5">
+      <div class="footer-logo mb-lg-5 mb-4 text-center">
+        <a class="navbar-brand   fs-1 " href="index.html">
+            <span class="text-primary" aria-hidden="true">ICE<i class="fa-solid fa-ice-cream text-primary display-1"></i>Cream</span>
+        </a>
+       
+        <p class="text-white-50 fs-5">We want to provide you with a great experience. Your feedback helps us </br>
+          bring you more of the events you love and the service you expect.</p>  
+      </div>
+      <hr>
+      <div class="footer-grid">
+        <div class=" text-center pt-5">
+          <div class="social text-center">
+            <ul class="d-flex justify-content-center list-unstyled">
+              <li class="mx-md-2 mx-1"><a href="#url" class="facebook"><span class="fab fa-facebook-f" aria-hidden="true"></span></a></li>
+              <li class="mx-md-2 mx-1"><a href="#url" class="twitter"><span class="fab fa-twitter" aria-hidden="true"></span></a></li>
+              <li class="mx-md-2 mx-1"><a href="#url" class="rss"><span class="fas fa-rss" aria-hidden="true"></span></a></li>
+              <li class="mx-md-2 mx-1"><a href="#url" class="linkedin"><span class="fab fa-linkedin-in" aria-hidden="true"></span></a></li>
+              <li class="mx-md-2 mx-1"><a href="#url" class="google"><span class="fab fa-google-plus" aria-hidden="true"></span></a></li>
+            </ul>
+          </div>
+          <p class="mt-4 text-white  ">© 2024 ICEcream. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="=_blank" class="text-decoration-none text-primary fw-bold">U.Habiba Portfolio 
+            </a></p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+<!-- footer end -->
+
+
+
+
+  
+  
+<!-- bootstrap link -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- js link -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- aos link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+</body>
+<script>
+  AOS.init();
+</script>
+</html>

@@ -1,0 +1,277 @@
+/* common code start */
+.text-primary{
+    color: rgb(202, 7, 147) !important;
+}
+.bg-primary{
+    background-color: rgb(202, 7, 147) !important;
+}
+.bg-secondary{
+    background-color:rgb(244, 209, 234)!important;
+}
+
+.post-img{
+   height: 40px;
+   width: 40px;
+   border-radius: 90px;
+   
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.reciepe{
+    padding: 4px 20px;
+    border-radius: 90px;
+    background-color: rgb(106,26,40)!important;
+    color: white !important; 
+    text-decoration: none;
+    text-align: center;
+}
+.Drinks{
+    padding: 4px 20px;
+    border-radius: 90px;
+    background-color: #7f87de!important;
+    color: white !important; 
+    text-decoration: none;
+    text-align: center;
+}
+.howTo{
+    padding: 4px 20px;
+    border-radius: 90px;
+    background-color: rgb(202, 7, 147)!important;
+    color: white !important; 
+    text-decoration: none;
+    text-align: center;
+}
+
+/* common  code end */
+
+/* header sec start */ 
+nav ul li a {
+    color: rgb(202, 7, 147) !important;
+}
+nav ul li a:hover {
+    color: rgb(202, 7, 147) !important;
+    background-color: #fff;
+    border-radius: 15px;
+}
+ .hero-content{
+transform: translate3d(0, 40px, 0);
+  transition-delay: 0.05s;
+  transition-duration: 0.35s;
+} 
+
+
+.heroImg{
+    height:80vh ;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6) !important;
+    opacity:1; 
+    border-radius:1%;
+ }
+
+ .heroImg:hover img {
+    opacity: .7;
+  }
+
+ .heroImg:hover .hero-content{
+    transform: scaleY(1.1);
+ }
+   
+ .navbar-toggler:focus {
+
+    box-shadow: none !important
+}
+
+
+/* header sec end */
+/* latest section start */
+.twitter-date{
+    font-size: 15px;
+  
+}
+.post-pos {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color:#fff;
+}
+.card-img-bottom{
+    border-radius:3%;
+}
+.side-post-banner {
+    background: url(../images/side.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.btn-style {
+    padding: 10px 45px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    border-radius: 90px;
+}
+.btn-danger {
+    color: #f6f9fc;
+    background-color: #ff8763;
+    border-color: #ff8763;
+}
+.blog-cat{
+    list-style: none; 
+    text-decoration:none;
+    padding: 0;
+}
+.blog-cat li a {
+    color: var(--heading-color);
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+     text-decoration: none;
+}
+.blog-cat li a:hover {
+    color:rgb(202, 7, 147);
+}
+.blog-desc {
+    display: block;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    transition: .3s ease;
+    text-decoration: none;
+    color: black;
+}
+
+.p-footer {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.p-footer .p-meta-info a{
+    text-decoration: none;
+    color:rgb(6, 1, 30);
+}
+.p-footer .p-meta-info a:hover{
+    color: rgb(202, 7, 147);
+} 
+
+/* latest section end */
+/*  Categories section start  */
+ .column {
+    background:white;
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.05);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: transform .4s ease-in;
+    cursor: pointer !important;
+}
+.column:hover{
+
+    color:rgb(202, 7, 147)  !important;
+    transform: translateY( -20px ) !important;
+    transition: 0.3s ease-in !important;
+    
+}
+.column img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+ .info h4 a {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    color: var(--heading-color);
+    transition: .3s ease;
+    text-decoration: none;
+    padding:12px 0 12px;
+}
+/* <!-- Categories section end --> */
+
+/* 20-Minutes Meals section start */
+.most-recent a.viewMore{
+  margin-left: auto;
+  padding-left: 20px;
+  padding-top: 1%;
+  color: #666;
+  font-weight: 600;
+  font-size: 16px;
+  opacity: .9;
+  text-transform: capitalize;
+  cursor: pointer !important;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+.most-recent a.viewMore:hover{
+    color:black;
+}
+
+a.viewMore:hover span.fas {
+    color:  rgb(202, 7, 147) !important;
+    transform: translateX(4px) !important;
+    transition: 0.3s ease-in !important;
+  }
+.most-recent .card{
+ border: 0;
+}
+.blog-desc:hover{
+    color: rgb(202, 7, 147); 
+}
+/* 20-Minutes Meals section end */
+/* Newsletter section start */
+.btn-primary{
+    background-color: rgb(202, 7, 147) ; 
+    border: 5px solid rgb(202, 7, 147)  ;  
+}
+.btn-primary:hover{
+    background-color: rgb(188, 56, 151) ;
+    border: 5px solid rgb(203, 100, 174) ;
+}
+.btn-style {
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    border-radius: 5%;
+}
+
+
+
+
+
+/* Newsletter section end */
+/* dessert section start */
+.card{
+    padding:1%;
+    border: 0;
+}
+
+/* dessert section end */
+/* footer start */
+
+.social ul li a {
+    font-size: 18px;
+    display: block;
+    color: #fff;
+    background:rgb(202, 7, 147) ; 
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    list-style: none;
+}
+.footer-grid p:hover{
+    color:#666;
+
+}
+/* footer end */
