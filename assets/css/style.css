@@ -67,7 +67,7 @@ body{
 /* header sec start */ 
 nav ul li a {
     color: rgb(202, 7, 147) !important;
-    font-size:25px !important;
+    font-size:20px !important;
 }
 nav ul li a:hover {
    
@@ -268,10 +268,6 @@ a.viewMore:hover span.fas {
     border-radius: 5%;
 }
 
-
-
-
-
 /* Newsletter section end */
 /* dessert section start */
 .card{
@@ -283,8 +279,6 @@ a.viewMore:hover span.fas {
     width:12px;
     border-radius:5% !important;
 }
-/* dessert section end */
-
 .owl-item {width: 128.906px; margin-right: 10px;  }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
@@ -293,14 +287,8 @@ a.viewMore:hover span.fas {
 .owl-theme .owl-dots .owl-dot span {
     width: 12px;
     height: 12px;}
-/** to hide dots
-
-.owl-theme .owl-dots .owl-dot{ display:none!important;}
-
-**/
- 
+/* dessert section end */ 
 /* footer start */
-
 .social ul li a {
     font-size: 18px;
     display: block;
@@ -314,6 +302,5 @@ a.viewMore:hover span.fas {
 }
 .footer-grid p:hover{
     color:#666;
-
 }
 /* footer end */

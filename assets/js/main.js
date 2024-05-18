@@ -17,7 +17,6 @@ goTopBtn.addEventListener("click",() => {
 var owl = $('.owl-carousel');
 owl.owlCarousel({
     items:4, 
-  // items change number for slider display on desktop
   
     loop:true,
     margin:10,
@@ -41,9 +40,6 @@ owl.owlCarousel({
         items: 4
       }
     }
-    
-
-
-
+   
 
 });
