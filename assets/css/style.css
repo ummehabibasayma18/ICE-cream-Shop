@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cookie&family=Great+Vibes&family=Kalam:wght@300;400;700&family=Lobster&family=Sacramento&family=Spirax&display=swap");
+
+body{
+    font-family: "Spirax", system-ui;
+    font-weight: 400;
+ 
+}
+
+
 /* common code start */
 .text-primary{
     color: rgb(202, 7, 147) !important;
@@ -43,17 +52,27 @@
     text-decoration: none;
     text-align: center;
 }
+#goTop {
+    position: fixed;
+    bottom: 10000px;
+    z-index: 2000;
+    right:20px;
+    transition: 1s;
+    
+  }
+
 
 /* common  code end */
 
 /* header sec start */ 
 nav ul li a {
     color: rgb(202, 7, 147) !important;
+    font-size:25px !important;
 }
 nav ul li a:hover {
-    color: rgb(202, 7, 147) !important;
-    background-color: #fff;
-    border-radius: 15px;
+   
+  color: #fff !important;
+    
 }
  .hero-content{
 transform: translate3d(0, 40px, 0);
@@ -69,7 +88,11 @@ transform: translate3d(0, 40px, 0);
     opacity:1; 
     border-radius:1%;
  }
-
+.heroImg1{
+    height:40vh ;
+    width: 100%;
+    
+ }
  .heroImg:hover img {
     opacity: .7;
   }
@@ -253,10 +276,29 @@ a.viewMore:hover span.fas {
 /* dessert section start */
 .card{
     padding:1%;
-    border: 0;
+    border:none ;
 }
-
+.carousel-indicators .slideButton{
+    height:12px;
+    width:12px;
+    border-radius:5% !important;
+}
 /* dessert section end */
+
+.owl-item {width: 128.906px; margin-right: 10px;  }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background:rgb(202, 7, 147) ;
+  }
+.owl-theme .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;}
+/** to hide dots
+
+.owl-theme .owl-dots .owl-dot{ display:none!important;}
+
+**/
+ 
 /* footer start */
 
 .social ul li a {
